@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="Recibo"></p>
+    <script>
+        var recibo= { Usuario:"Espinosa Miguel",
+                      Estrato:1,
+                      Direccion:"Jaraquiel",
+                      Costo_de_energia:"43.570",
+                      costo_de_Alumbrado_Publico:"6.530",
+                      Total_documento_porpagar:"50.100",
+                      consumo_de_kWh:"183",
+                      valor_de_kWh:"550",
+                      subsidio:"-57.098,08",
+                      NIC:"4582037"};
+                      console.log(recibo);
+
+                      
+ document.getElementById("Recibo").innerHTML =  "Recibo de" + recibo.Usuario + recibo.Estrato;                
+    </script>
+
+
+</body>
+</html>
